@@ -21,7 +21,7 @@ pipeline {
                 echo 'Job Complete!'
             }
         }
-        stage('checking automatic build') {
+        stage('checking changes') {
             steps {
                 echo 'automatic build successful!'
             }
