@@ -21,5 +21,10 @@ pipeline {
                 echo 'Job Complete!'
             }
         }
+        stage('checking automatic build') {
+            steps {
+                echo 'automatic build successful!'
+            }
+        }
     }
 }
